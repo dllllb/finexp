@@ -11,6 +11,7 @@ pytest = "*"
 pandas = "*"
 scikit-learn = "*"
 jupyter = "*"
+notebook = "*"
 catboost = "*"
 
 [requires]
