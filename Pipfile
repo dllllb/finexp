@@ -11,8 +11,8 @@ pytest = "*"
 pandas = "*"
 scikit-learn = "*"
 jupyter = "*"
-notebook = "*"
 catboost = "*"
+s3fs = "*"
 
 [requires]
 python_version = "3.10"
