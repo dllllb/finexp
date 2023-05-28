@@ -15,4 +15,4 @@ See [demo notebook](basepred.ipynb)
 
 `pystock-data` ([github](https://github.com/eliangcs/pystock-data)) can be used as an alternative dataset, but additional pre-processing steps are required. The data is available for US companies for 2009-2017 years. The data is stored in archive files inside the GitHub repo.
 
-`pystock-crawler` ([github](https://github.com/eliangcs/pystock-crawler)) CLI tool was used to crawl fundamentals from 10-Q and 10-K filings (XBRL) on SEC EDGAR and daily prices from Yahoo Finance. Dividend data from Yahoo Finance is not included, dividends from 10-Q and 10-K filings are included.
+`pystock-crawler` ([github](https://github.com/eliangcs/pystock-crawler)) CLI tool was used to crawl fundamentals from 10-Q and 10-K filings (XBRL) on SEC EDGAR and daily prices from Yahoo Finance. Dividend data from Yahoo Finance is not included, dividends from 10-Q and 10-K filings are included. An alternative way to abtain dvidends is to redownload daily stock prices using `yfinance` ([github](https://github.com/ranaroussi/yfinance)), since it downloads dividend history column.
